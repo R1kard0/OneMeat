@@ -1,0 +1,188 @@
+
+body{
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+/* Headings */
+.big-heading{
+    font-weight: 900;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+#title{
+    background: linear-gradient(to right, #83EAF1, #63A4FF);
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 400px;
+    transform: rotate(25deg);
+    position: absolute;
+    margin: 0 0 0 3%;
+    
+}
+
+/* Features */
+
+#features{
+    padding: 7% 20%;
+    text-align:center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+p{
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    color: #8f8f8f;
+}
+
+
+.icons{
+    padding: 3% 8%;
+width: 256px;
+text-align: center;
+}
+
+.icons:hover{
+}
+
+/* Testimonail Section */
+
+#testimonials{
+    text-align: center;
+    background: linear-gradient(to right, #83EAF1, #63A4FF);
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: lightblue;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+
+}
+
+@media (max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Footer */
+
+#cta{
+    text-align: center;
+    background: linear-gradient(to right, #83EAF1, #63A4FF);
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    
+   
+}
+
+#footer{
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+}
+
+.download-footer{
+    margin: 2% 3% 5% 3%;
+}
+
+.logo-footer{
+    margin: 20px 10px;
+}
